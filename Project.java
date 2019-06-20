@@ -13,8 +13,9 @@ public class Project {
         Name = name;
         Description = description;
     }
+    public void setName(String name){Name = name;};
+    public void setDescription(String description){Description = description;};
 
-    
     public String returnName(){ return Name;};
     public String returnDescription(){return Description;};
 }
