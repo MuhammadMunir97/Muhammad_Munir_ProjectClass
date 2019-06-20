@@ -1,7 +1,6 @@
 /**
  * ProjectClass
  */
-public class ProjectClass {
-
+public class Project {
     
 }
