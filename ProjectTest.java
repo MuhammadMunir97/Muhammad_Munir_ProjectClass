@@ -11,6 +11,7 @@ public class ProjectTest {
         firstProject.setDescription("This is the test for the first project");
         System.out.println("Project Name: "+firstProject.returnName());
         System.out.println("Project Description: " + firstProject.returnDescription());
+        System.out.println("using elevator pitch: " + firstProject.elevatorPitch());
 
         // using constuctor number 2
         System.out.println("using second constructor");
@@ -18,11 +19,13 @@ public class ProjectTest {
         secondProject.setDescription("This is the test for the second project");
         System.out.println("Project Name: "+secondProject.returnName());
         System.out.println("Project Description: " + secondProject.returnDescription());
+        System.out.println("using elevator pitch: " + secondProject.elevatorPitch());
 
         // using constructor number 3
         System.out.println("using third constructor");
         Project thirdProject = new Project("Third Project", "This is the test for the third constructor");
         System.out.println("Project Name: "+thirdProject.returnName());
         System.out.println("Project Description: " + thirdProject.returnDescription());
+        System.out.println("using elevator pitch: " + thirdProject.elevatorPitch());
     }
 }
