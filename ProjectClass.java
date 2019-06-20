@@ -1,0 +1,7 @@
+/**
+ * ProjectClass
+ */
+public class ProjectClass {
+
+    
+}
