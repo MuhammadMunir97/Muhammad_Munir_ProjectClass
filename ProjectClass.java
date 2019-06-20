@@ -1,7 +1,0 @@
-/**
- * ProjectClass
- */
-public class ProjectClass {
-
-    
-}
